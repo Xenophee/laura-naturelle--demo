@@ -15,6 +15,11 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 La démo est en ligne [ici](https://laura-naturelle-demo.vercel.app).
 
 
+> Prochaine maj : 
+> - Amélioration du responsive de la navigation sur les écrans autour de 1200px.
+> - Ajout de commentaires
+
+
 <br>
 <h2 align="center">La stack technique :</h2>
 <p align="center">

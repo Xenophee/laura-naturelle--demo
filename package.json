@@ -1,0 +1,26 @@
+{
+    "name": "laura-naturelle",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "/src/js/index.js",
+    "scripts": {
+        "format": "prettier --write index.html ./src/**/*.js ./pages/*.html",
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "keywords": [],
+    "author": "Perrine Dassonville",
+    "license": "ISC",
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.5.7",
+        "@tailwindcss/typography": "^0.5.13",
+        "autoprefixer": "^10.4.17",
+        "postcss": "^8.4.35",
+        "prettier": "^3.2.4",
+        "prettier-plugin-tailwindcss": "^0.5.11",
+        "tailwindcss": "^3.4.1",
+        "vite": "^5.1.0"
+    }
+}

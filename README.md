@@ -12,6 +12,8 @@ L'intégration précédente, faute de connaissances suffisantes, avait été ré
 
 Pour cette restructuration, le design a été totalement revu et maquetté sur Figma. Avec l'apprentissage de nouvelles technologies, c'est l'occasion de rendre le tout désormais plus moderne.
 
+La démo est en ligne [ici](https://laura-naturelle-demo.vercel.app).
+
 
 <br>
 <h2 align="center">La stack technique :</h2>

@@ -1,6 +1,6 @@
 <h1 align="center">L'Aura Natur'elle</h1>
 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/stephanievanoverberghe/portfolio-svano)
 
 
 <img src="/preview.png">
@@ -18,6 +18,7 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 
 
 <h2 align="center">Prochaine mise à jour :</h2>
+<br>
 <br>
 
 > [!WARNING]
@@ -41,18 +42,13 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <h2 align="center">Autres outils :</h2>
 <br>
 <p align="center">
-<a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
-  </a>
-<a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E">
-  </a>
-<a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
-  </a>
-  <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-  </a>
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+
+<img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E">
+
+<img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
+
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </p>
 <br>
 <hr>

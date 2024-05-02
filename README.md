@@ -1,6 +1,6 @@
 <h1 align="center">L'Aura Natur'elle</h1>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/stephanievanoverberghe/portfolio-svano)
+
 
 
 <img src="/preview.png">

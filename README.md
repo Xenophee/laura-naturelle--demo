@@ -20,11 +20,9 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <br>
 <br>
 
-> [!WARNING]
->- Amélioration du responsive de la navigation sur les écrans autour de 1200px.
-
 > [!NOTE]
 > - Ajout de commentaires
+> - Amélioration de la lisibilité du code
 
 <br>
 

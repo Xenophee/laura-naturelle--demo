@@ -2,7 +2,6 @@
 
 
 
-
 <img src="/preview.png">
 
 <p align="center"> :leaves: <a href="https://laura-naturelle-demo.vercel.app">Voir la démo</a> :leaves: </p>

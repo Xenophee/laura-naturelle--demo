@@ -43,6 +43,8 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 
 <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E">
 
+<img src="https://img.shields.io/badge/postcss-000000?style=for-the-badge&logo=postcss&logoColor=DD3A0A">
+
 <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
 
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">

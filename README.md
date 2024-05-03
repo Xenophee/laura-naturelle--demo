@@ -29,10 +29,9 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <h2 align="center">La stack technique :</h2>
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tailwind,symfony,mysql">
+  <img src="https://skillicons.dev/icons?i=tailwind,react,symfony,mysql">
 </p>
 
-<p align="center">Le framework JS reste à définir.</p>
 
 <br>
 

@@ -32,17 +32,21 @@ const activeDropdown = () => {
 		if (window.innerWidth >= 1280) {
 			dropdownElement.addEventListener("mouseenter", () => {
 				dropdownMainLink.classList.add("text-pink-500");
+				dropdownMainLink.classList.replace("after:scale-x-0", "after:scale-x-100");
 				dropdownLinks.classList.replace("*:opacity-0", "*:opacity-100");
 				dropdownLinks.classList.replace("scale-y-0", "scale-y-100");
 				dropdownIcon.classList.replace("rotate-0", "-rotate-180");
+				toggler(dropdownIcon, "text-pink-500");
 				dropdownLinks.classList.add("shadow");
 			});
 
 			dropdownElement.addEventListener("mouseleave", () => {
 				dropdownMainLink.classList.remove("text-pink-500");
+				dropdownMainLink.classList.replace("after:scale-x-100", "after:scale-x-0");
 				dropdownLinks.classList.replace("*:opacity-100", "*:opacity-0");
 				dropdownLinks.classList.replace("scale-y-100", "scale-y-0");
 				dropdownIcon.classList.replace("-rotate-180", "rotate-0");
+				toggler(dropdownIcon, "text-pink-500");
 				dropdownLinks.classList.remove("shadow");
 			});
 		} else {

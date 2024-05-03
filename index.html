@@ -15,10 +15,19 @@
 	</head>
 
 	<body class="min-h-screen">
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- HEADER -->
+
 		<header class="flex h-screen flex-col">
 			<div class="fixed z-50 w-full translate-y-0 transition duration-500" id="headerFixed">
+				<!-- ============================================================================================================================================= -->
+				<!-- ANNONCE -->
 				<p class="bg-emerald-800 p-2 text-center text-xs font-bold text-white md:text-base">- 20% sur les prestations de modelage jusqu’au 10/10/2024</p>
+				<!-- ============================================================================================================================================= -->
 
+				<!-- ============================================================================================================================================= -->
+				<!-- NAVIGATION-->
 				<nav class="relative flex flex-shrink-0 items-center justify-between border-b-2 border-b-pink-200 bg-white px-2 py-1 text-xl sm:pr-10">
 					<a
 						href="./"
@@ -31,12 +40,17 @@
 						Natur'elle
 					</a>
 
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+					<!-- Menu desktop-->
 					<ul class="hidden flex-auto gap-x-12 pl-20 xl:flex" id="menuDesktop">
-						<li class="dropdown relative">
-							<a href="/pages/page.html" class="py-9 transition duration-500">
+						<li class="dropdown relative cursor-pointer">
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
+							>
 								Femmes
-								<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
 							</a>
+							<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
 							<ul
 								class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
 							>
@@ -62,11 +76,14 @@
 								</li>
 							</ul>
 						</li>
-						<li class="dropdown relative">
-							<a href="/pages/page.html" class="py-9 transition duration-500 hover:text-pink-500">
+						<li class="dropdown relative cursor-pointer">
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
+							>
 								Hommes
-								<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
 							</a>
+							<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
 							<ul
 								class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
 							>
@@ -93,16 +110,32 @@
 							</ul>
 						</li>
 						<li>
-							<a href="/pages/page.html" class="py-9 transition duration-500 hover:text-pink-500">Enfants</a>
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Enfants</a
+							>
 						</li>
 						<li>
-							<a href="/pages/page.html" class="py-9 transition duration-500 hover:text-pink-500">Cartes cadeaux</a>
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Cartes cadeaux</a
+							>
 						</li>
 						<li>
-							<a href="/pages/page.html" class="py-9 transition duration-500 hover:text-pink-500">Produits</a>
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Produits</a
+							>
 						</li>
 						<li>
-							<a href="/pages/page.html" class="py-9 transition duration-500 hover:text-pink-500">Contact</a>
+							<a
+								href="/pages/page.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Contact</a
+							>
 						</li>
 					</ul>
 
@@ -118,7 +151,10 @@
 							</a>
 						</li>
 					</ul>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+					<!-- Menu hamburger-->
 					<button class="relative flex p-2 px-4 xl:hidden" id="menuTrigger" aria-label="Ouvrir le menu">
 						<i class="ri-menu-line ri-2x rotate-0 opacity-100 transition duration-300"></i>
 						<i class="ri-close-large-line ri-2x absolute rotate-90 !opacity-0 transition duration-300"></i>
@@ -130,16 +166,16 @@
 								Femmes
 								<i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
 								<ul class="dropdown-links my-3 hidden bg-pink-50 px-5 py-2 *:py-3">
-									<li>Lorem Ipsum</li>
-									<li>Lorem Ipsum</li>
+									<li><a href="/pages/page.html">Lorem Ipsum</a></li>
+									<li><a href="/pages/page.html">Lorem Ipsum</a>/li>
 								</ul>
 							</li>
 							<li class="dropdown">
 								Hommes
 								<i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
 								<ul class="dropdown-links my-3 hidden bg-emerald-50 px-5 py-2 *:py-3">
-									<li>Lorem Ipsum</li>
-									<li>Lorem Ipsum</li>
+									<li><a href="/pages/page.html">Lorem Ipsum</a></li>
+									<li><a href="/pages/page.html">Lorem Ipsum</a></li>
 								</ul>
 							</li>
 							<li><a href="/pages/page.html">Enfants</a></li>
@@ -158,15 +194,19 @@
 							</li>
 						</ul>
 					</div>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 				</nav>
+				<!-- ============================================================================================================================================= -->
 			</div>
 
+			<!-- ============================================================================================================================================= -->
+			<!-- HERO -->
 			<div class="relative top-12 flex flex-grow items-center">
 				<h1 class="relative w-full text-center font-petrona text-3xl font-extrabold leading-loose text-emerald-800 sm:text-5xl md:text-6xl xl:text-start">
 					<span class="-top-32 left-2/4 z-10 mx-5 block text-nowrap lg:absolute lg:-translate-x-2/4 lg:-translate-y-2/4 xl:left-1/4">Bienvenue chez</span>
 					<br />
 					<span
-						class="top-5 z-10 mx-5 block bg-gradient-to-r from-pink-600 to-emerald-800 bg-clip-text text-center text-5xl tracking-wide text-transparent sm:text-7xl sm:tracking-wider md:top-20 md:text-9xl lg:absolute lg:left-24 lg:-translate-y-2/4 xl:left-32 xl:text-nowrap xl:text-start"
+						class="top-5 z-10 mx-5 block bg-gradient-to-r from-pink-600 to-emerald-800 bg-clip-text text-center text-5xl tracking-wide text-transparent sm:text-7xl sm:tracking-wider md:top-20 md:text-9xl lg:absolute lg:left-24 lg:-translate-y-2/4 xl:left-14 xl:text-nowrap xl:text-start 2xl:left-32"
 					>
 						L'Aura Natur'elle
 					</span>
@@ -175,14 +215,27 @@
 				</h1>
 				<picture>
 					<source srcset="/src/assets/images/pictures/main-xl.webp" type="image/webp" media="(min-width: 768px)" />
-					<img src="/src/assets/images/pictures/main.webp" class="absolute left-2/4 top-1/2 -translate-x-2/4 -translate-y-2/4 opacity-40 xl:left-3/4 xl:opacity-100" aria-hidden="true" />
+					<img
+						src="/src/assets/images/pictures/main.webp"
+						class="absolute left-2/4 top-1/2 -translate-x-2/4 -translate-y-2/4 opacity-40 xl:left-3/4 xl:opacity-60 2xl:opacity-100"
+						aria-hidden="true"
+					/>
 				</picture>
 			</div>
+			<!-- ============================================================================================================================================= -->
 		</header>
+
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- MAIN -->
 
 		<main class="flex h-screen bg-pink-100">
 			<h2 class="inline-block w-full self-center px-4 text-center font-petrona text-4xl font-extrabold text-pink-900 md:text-5xl">En construction</h2>
 		</main>
+
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- FOOTER -->
 
 		<footer></footer>
 

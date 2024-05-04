@@ -6,7 +6,8 @@ export default {
             input: {
                 config: resolve(__dirname, 'vercel.json'),
                 main: resolve(__dirname, 'index.html'),
-                pages: resolve(__dirname, 'pages/page.html')
+                pages: resolve(__dirname, 'pages/page.html'),
+                female: resolve(__dirname, 'pages/female.html')
             }
         }
     }

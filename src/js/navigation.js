@@ -65,6 +65,7 @@ const mobileMenu = () => {
 	const menuList = document.querySelector("#menu ul");
 
 	menuTrigger.addEventListener("click", () => {
+		console.log(menuTrigger);
 		const currentAriaLabel = menuTrigger.getAttribute("aria-label");
 		const ariaLabel = currentAriaLabel === "Ouvrir le menu" ? "Fermer le menu" : "Ouvrir le menu";
 		menuTrigger.setAttribute("aria-label", ariaLabel);
@@ -86,10 +87,6 @@ const desktopMenu = () => {
 const activeMenu = () => {
 	window.innerWidth >= 1280 ? desktopMenu() : mobileMenu();
 };
-
-window.addEventListener("resize", () => {
-	activeMenu();
-});
 
 activeMenu();
 scrollActionMenu();

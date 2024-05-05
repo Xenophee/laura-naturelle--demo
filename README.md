@@ -21,8 +21,7 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <br>
 
 > [!NOTE]
-> - Ajout de commentaires
-> - Amélioration de la lisibilité du code
+> - Finalisation du footer
 
 <br>
 

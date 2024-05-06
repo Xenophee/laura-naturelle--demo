@@ -1,346 +1,406 @@
 <!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet"
-    />
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/src/css/style.css" />
-    <title>Prestations enfants</title>
-</head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="/src/css/style.css" />
+		<title>Prestations enfants</title>
+	</head>
 
-<body>
-<!-- ============================================================================================================================================= -->
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- HEADER -->
-<header class="flex flex-col xl:h-screen">
-    <div class="fixed z-50 w-full translate-y-0 transition duration-500" id="headerFixed">
-        <!-- ============================================================================================================================================= -->
-        <!-- ANNONCE -->
-        <p class="bg-emerald-800 p-2 text-center text-xs font-bold text-white md:text-base">- 20% sur les prestations de modelage jusqu’au 10/10/2024</p>
-        <!-- ============================================================================================================================================= -->
+	<body>
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- HEADER -->
+		<header class="flex flex-col xl:h-screen">
+			<div class="fixed z-50 w-full translate-y-0 transition duration-500" id="headerFixed">
+				<!-- ============================================================================================================================================= -->
+				<!-- ANNONCE -->
+				<p class="bg-emerald-800 p-2 text-center text-xs font-bold text-white md:text-base">- 20% sur les prestations de modelage jusqu’au 10/10/2024</p>
+				<!-- ============================================================================================================================================= -->
 
-        <!-- ============================================================================================================================================= -->
-        <!-- NAVIGATION-->
-        <nav class="relative flex flex-shrink-0 items-center justify-between border-b-2 border-b-pink-200 bg-white px-2 py-1 text-xl sm:pr-10">
-            <a
-                    href="../"
-                    class="flex items-center bg-gradient-to-r from-slate-600 to-pink-800 bg-clip-text font-dancing text-2xl font-bold leading-none text-transparent sm:tracking-widest"
-                    title="Accueil"
-            >
-                <img src="/src/assets/images/logos/logo-600.webp" class="mr-2 size-16 sm:mr-3 xl:size-20" alt="Logo l'Aura Natur'elle" />
-                l'Aura
-                <br />
-                Natur'elle
-            </a>
+				<!-- ============================================================================================================================================= -->
+				<!-- NAVIGATION-->
+				<nav class="relative flex flex-shrink-0 items-center justify-between border-b-2 border-b-pink-200 bg-white px-2 py-1 text-xl sm:pr-10">
+					<a
+						href="../"
+						class="flex items-center bg-gradient-to-r from-slate-600 to-pink-800 bg-clip-text font-dancing text-2xl font-bold leading-none text-transparent sm:tracking-widest"
+						title="Accueil"
+					>
+						<img src="/src/assets/images/logos/logo-600.webp" class="mr-2 size-16 sm:mr-3 xl:size-20" alt="Logo l'Aura Natur'elle" />
+						l'Aura
+						<br />
+						Natur'elle
+					</a>
 
-            <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-            <!-- Menu desktop-->
-            <ul class="hidden flex-auto gap-x-12 pl-20 xl:flex" id="menuDesktop">
-                <li class="dropdown relative cursor-pointer">
-                    <a
-                            href="/pages/female.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
-                    >
-                        Femmes
-                    </a>
-                    <i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
-                    <ul
-                            class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
-                    >
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown relative cursor-pointer">
-                    <a
-                            href="/pages/male.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
-                    >
-                        Hommes
-                    </a>
-                    <i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
-                    <ul
-                            class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
-                    >
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/pages/page.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a
-                            href="/pages/children.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Enfants</a
-                    >
-                </li>
-                <li>
-                    <a
-                            href="/pages/page.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Cartes cadeaux</a
-                    >
-                </li>
-                <li>
-                    <a
-                            href="/pages/page.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Produits</a
-                    >
-                </li>
-                <li>
-                    <a
-                            href="/pages/page.html"
-                            class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Contact</a
-                    >
-                </li>
-            </ul>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+					<!-- Menu desktop-->
+					<ul class="hidden flex-auto gap-x-12 pl-20 xl:flex" id="menuDesktop">
+						<li class="dropdown relative cursor-pointer">
+							<a
+								href="/pages/female.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
+							>
+								Femmes
+							</a>
+							<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
+							<ul
+								class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
+							>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-pink-300 hover:bg-pink-50">
+										Lorem Ipsum
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown relative cursor-pointer">
+							<a
+								href="/pages/male.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500"
+							>
+								Hommes
+							</a>
+							<i class="ri-arrow-down-s-line ml-2 inline-block rotate-0 transition-transform duration-500"></i>
+							<ul
+								class="dropdown-links absolute top-12 my-3 origin-top -translate-x-10 scale-y-0 text-nowrap border-x-2 border-b-2 border-pink-200 bg-white transition duration-300 *:opacity-0 *:transition *:duration-200"
+							>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
+										Lorem Ipsum
+									</a>
+								</li>
+								<li>
+									<a href="/pages/service.html" class="inline-block border-l-4 border-l-white px-7 py-3 transition duration-300 hover:border-l-emerald-300 hover:bg-emerald-50">
+										Lorem Ipsum
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a
+								href="/pages/children.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Enfants</a
+							>
+						</li>
+						<li>
+							<a
+								href="/pages/gift_card.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Cartes cadeaux</a
+							>
+						</li>
+						<li>
+							<a
+								href="/pages/products.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Produits</a
+							>
+						</li>
+						<li>
+							<a
+								href="/pages/contact.html"
+								class="relative py-9 transition duration-500 after:absolute after:bottom-7 after:left-0 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Contact</a
+							>
+						</li>
+					</ul>
 
-            <ul class="hidden gap-x-3 py-2 xl:flex">
-                <li>
-                    <a href="/pages/page.html" class="border-2 border-pink-400 px-7 py-3 transition duration-500 hover:bg-pink-300 xl:border-0 xl:px-2 2xl:border-2 2xl:px-7">
-                        <i class="ri-dashboard-horizontal-fill ri-xl hidden xl:inline-block 2xl:hidden" title="Gestion"></i><span class="xl:hidden 2xl:inline-block">Gestion</span></a
-                    >
-                </li>
-                <li>
-                    <a href="/pages/page.html" class="px-2 py-3">
-                        <i class="ri-logout-circle-r-line ri-xl" title="Se déconnecter"></i>
-                    </a>
-                </li>
-            </ul>
-            <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+					<ul class="hidden gap-x-3 py-2 xl:flex">
+						<li>
+							<a href="/pages/page.html" class="border-2 border-pink-400 px-7 py-3 transition duration-500 hover:bg-pink-300 xl:border-0 xl:px-2 2xl:border-2 2xl:px-7">
+								<i class="ri-dashboard-horizontal-fill ri-xl hidden xl:inline-block 2xl:hidden" title="Gestion"></i><span class="xl:hidden 2xl:inline-block">Gestion</span></a
+							>
+						</li>
+						<li>
+							<a href="/pages/page.html" class="px-2 py-3">
+								<i class="ri-logout-circle-r-line ri-xl" title="Se déconnecter"></i>
+							</a>
+						</li>
+					</ul>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-            <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-            <!-- Menu hamburger-->
-            <button class="relative flex p-2 px-4 xl:hidden" id="menuTrigger" aria-label="Ouvrir le menu">
-                <i class="ri-menu-line ri-2x rotate-0 opacity-100 transition duration-300"></i>
-                <i class="ri-close-large-line ri-2x absolute rotate-90 !opacity-0 transition duration-300"></i>
-            </button>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+					<!-- Menu hamburger-->
+					<button class="relative flex p-2 px-4 xl:hidden" id="menuTrigger" aria-label="Ouvrir le menu">
+						<i class="ri-menu-line ri-2x rotate-0 opacity-100 transition duration-300"></i>
+						<i class="ri-close-large-line ri-2x absolute rotate-90 !opacity-0 transition duration-300"></i>
+					</button>
 
-            <div id="menu" class="absolute left-0 top-16 z-50 w-full origin-top scale-y-0 border-b-2 border-b-pink-200 bg-white transition duration-500">
-                <ul class="px-11 py-2 opacity-0 transition duration-300 *:my-2 *:py-3 sm:*:px-16">
-                    <li class="dropdown">
-                        Femmes
-                        <i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
-                        <ul class="dropdown-links my-3 hidden bg-pink-50 px-5 py-2 *:py-3">
-                            <li><a href="/pages/page.html">Lorem Ipsum</a></li>
-                            <li><a href="/pages/page.html">Lorem Ipsum</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        Hommes
-                        <i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
-                        <ul class="dropdown-links my-3 hidden bg-emerald-50 px-5 py-2 *:py-3">
-                            <li><a href="/pages/page.html">Lorem Ipsum</a></li>
-                            <li><a href="/pages/page.html">Lorem Ipsum</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/pages/children.html">Enfants</a></li>
-                    <li>
-                        <a href="/pages/page.html">Cartes cadeaux</a>
-                    </li>
-                    <li><a href="/pages/page.html">Produits</a></li>
-                    <li><a href="/pages/page.html">Contact</a></li>
-                    <li>
-                        <a href="/pages/page.html" class="border-2 border-pink-400 px-7 py-3">Gestion</a>
-                    </li>
-                    <li>
-                        <a href="/pages/page.html">
-                            <i class="ri-logout-circle-r-line ri-xl" title="Se déconnecter"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-        </nav>
-        <!-- ============================================================================================================================================= -->
-    </div>
+					<div id="menu" class="absolute left-0 top-16 z-50 w-full origin-top scale-y-0 border-b-2 border-b-pink-200 bg-white transition duration-500">
+						<ul class="px-11 py-2 opacity-0 transition duration-300 *:my-2 *:py-3 sm:*:px-16">
+							<li class="dropdown">
+								Femmes
+								<i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
+								<ul class="dropdown-links my-3 hidden bg-pink-50 px-5 py-2 *:py-3">
+									<li><a href="/pages/service.html">Lorem Ipsum</a></li>
+									<li><a href="/pages/service.html">Lorem Ipsum</a>/li></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								Hommes
+								<i class="ri-arrow-down-s-line inline-block rotate-0 transition duration-500"></i>
+								<ul class="dropdown-links my-3 hidden bg-emerald-50 px-5 py-2 *:py-3">
+									<li><a href="/pages/service.html">Lorem Ipsum</a></li>
+									<li><a href="/pages/service.html">Lorem Ipsum</a></li>
+								</ul>
+							</li>
+							<li><a href="/pages/children.html">Enfants</a></li>
+							<li>
+								<a href="/pages/gift_card.html">Cartes cadeaux</a>
+							</li>
+							<li><a href="/pages/products.html">Produits</a></li>
+							<li><a href="/pages/contact.html">Contact</a></li>
+							<li>
+								<a href="/pages/page.html" class="border-2 border-pink-400 px-7 py-3">Gestion</a>
+							</li>
+							<li>
+								<a href="/pages/page.html">
+									<i class="ri-logout-circle-r-line ri-xl" title="Se déconnecter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+				</nav>
+				<!-- ============================================================================================================================================= -->
+			</div>
 
-    <!-- ============================================================================================================================================= -->
-    <!-- HERO -->
-    <div class="relative mt-32 flex flex-grow flex-col justify-evenly md:mt-52 lg:mt-40 xl:mt-32">
-        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <!-- Image -->
-        <picture>
-            <source srcset="/src/assets/images/pictures/children-xl.webp" type="image/webp" media="(min-width: 1536px)" />
-            <img src="/src/assets/images/pictures/children.webp" class="absolute left-2/4 top-52 -translate-x-2/4 -translate-y-2/4 lg:left-52 xl:left-64 xl:top-80" alt="" aria-hidden="true" />
-        </picture>
+			<!-- ============================================================================================================================================= -->
+			<!-- HERO -->
+			<div class="relative mt-40 flex flex-grow flex-col justify-evenly md:mt-52 lg:mt-40 xl:mt-32">
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+				<!-- Image -->
+				<picture>
+					<source srcset="/src/assets/images/pictures/children-xl.webp" type="image/webp" media="(min-width: 1536px)" />
+					<img src="/src/assets/images/pictures/children.webp" class="absolute left-2/4 top-52 -translate-x-2/4 -translate-y-2/4 lg:left-52 xl:left-64 xl:top-80" alt="" aria-hidden="true" />
+				</picture>
 
-        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <!-- Titre -->
-        <h1
-                class="z-30 w-full bg-gradient-to-tr from-emerald-700 to-emerald-800 bg-clip-text px-5 py-10 text-center font-petrona text-5xl font-extrabold text-emerald-800 text-transparent sm:text-7xl xl:text-8xl 2xl:text-9xl"
-        >
-            Prestations enfants
-        </h1>
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+				<!-- Titre -->
+				<h1
+					class="z-30 w-full bg-gradient-to-tr from-emerald-700 to-emerald-800 bg-clip-text px-5 py-10 text-center font-petrona text-5xl font-extrabold text-emerald-800 text-transparent sm:text-7xl xl:text-8xl 2xl:text-9xl"
+				>
+					Prestations enfants
+				</h1>
 
-        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <!-- Description de la page -->
-        <p class="z-30 w-2/3 self-center text-center text-xl leading-loose tracking-wide xl:text-2xl xl:leading-[3.5rem] 2xl:text-3xl 2xl:leading-[4rem]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+				<!-- Description de la page -->
+				<p class="z-30 w-2/3 self-center text-center text-xl leading-loose tracking-wide xl:text-2xl xl:leading-[3.5rem] 2xl:text-3xl 2xl:leading-[4rem]">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<strong class="text-center text-xl text-pink-700 font-bold px-5 pt-10 xl:pt-0 z-30">Pendant toute la durée du soin pour les mineurs, la présence d’un parent est obligatoire !</strong>
 
-        <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-        <!-- Image -->
-        <picture>
-            <source srcset="/src/assets/images/pictures/children-2-xl.webp" type="image/webp" media="(min-width: 1536px)" />
-            <img src="/src/assets/images/pictures/children-2.webp" class="top-3/3 absolute -right-28 hidden -translate-x-2/4 -translate-y-2/4 lg:top-2/3 lg:-right-12 lg:block 2xl:-right-28" alt="" aria-hidden="true" />
-        </picture>
-    </div>
-    <!-- ============================================================================================================================================= -->
-</header>
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+				<!-- Image -->
+				<picture>
+					<source srcset="/src/assets/images/pictures/children-2-xl.webp" type="image/webp" media="(min-width: 1536px)" />
+					<img
+						src="/src/assets/images/pictures/children-2.webp"
+						class="top-3/3 absolute -right-28 hidden -translate-x-2/4 -translate-y-2/4 lg:-right-12 lg:top-2/3 lg:block 2xl:-right-12"
+						alt=""
+						aria-hidden="true"
+					/>
+				</picture>
+			</div>
+			<!-- ============================================================================================================================================= -->
+		</header>
 
-<!-- ============================================================================================================================================= -->
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- MAIN -->
-<main class="min-h-screen pb-24 pt-24 lg:pb-44 lg:pt-44 xl:pb-44 xl:pt-24 flex">
-    <h2 class="text-center text-3xl sm:text-6xl lg:text-9xl font-petrona place-self-center w-full text-pink-800 font-thin px-5">En construction</h2>
-</main>
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- MAIN -->
+		<main class="flex min-h-screen pb-24 pt-24 lg:pb-44 lg:pt-44 xl:pb-44 xl:pt-24">
+			<div class="container mx-auto">
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--				Onglet-->
+				<div class="flex justify-between *:text-white *:text-center *:py-5 *:px-24 *:text-3xl *:font-petrona *:rounded-t-xl">
+					<button class="bg-pink-600">Les petites fées</button>
+					<button class="bg-emerald-800">Les petits princes</button>
+				</div>
 
-<!-- ============================================================================================================================================= -->
-<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!-- FOOTER -->
-<footer class="relative border-t-2 border-t-pink-200 py-10">
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- Image-->
-    <picture>
-        <source srcset="/src/assets/images/pictures/footer.webp" type="image/webp" media="(min-width: 768px)" />
-        <img src="/src/assets/images/pictures/main.webp" class="absolute bottom-0 right-0 opacity-15 md:h-full" alt="" aria-hidden="true" />
-    </picture>
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- Grille des infos -->
-    <div class="grid justify-items-center gap-y-20 px-5 sm:grid-cols-2 md:grid-cols-3">
-        <!-- ------------------------------------------------------------- -->
-        <!-- Informations -->
-        <div>
-            <h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Informations</h3>
-            <ul class="*:py-2">
-                <li>
-                    <a
-                            href="#"
-                            class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Mentions légales</a
-                    >
-                </li>
-                <li>
-                    <a
-                            href="#"
-                            class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Politiques de confidentialité</a
-                    >
-                </li>
-                <li>
-                    <a
-                            href="#"
-                            class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    >Conditions générales de vente</a
-                    >
-                </li>
-                <li class="mt-20">
-                    Paiements disponibles sur place :
-                    <ul class="mt-4 flex justify-around">
-                        <li><img src="/src/assets/images/logos/credit-card.svg" class="w-8" alt="Carte de crédit" title="Carte de crédit" /></li>
-                        <li><img src="/src/assets/images/logos/visa.svg" class="w-8" alt="Carte visa" title="Carte visa" /></li>
-                        <li><img src="/src/assets/images/logos/mastercard.svg" class="w-8" alt="Mastercard" title="Mastercard" /></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- ------------------------------------------------------------- -->
-        <!-- Contact -->
-        <div>
-            <h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Contact</h3>
-            <ul class="*:py-2">
-                <li>
-                    <i class="ri-map-pin-line mr-3"></i>10 chemin de la Tombelle <br />
-                    02100 Saint Quentin
-                </li>
-                <li>
-                    <a
-                            href="mailto:esthetique@gmail.com"
-                            class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
-                    ><i class="ri-mail-line mr-3" aria-hidden="true"></i>esthetique@gmail.com</a
-                    >
-                </li>
-                <li><i class="ri-phone-fill mr-3" aria-hidden="true"></i>07 67 47 68 37</li>
-            </ul>
-        </div>
-        <!-- ------------------------------------------------------------- -->
-        <!-- Horaires -->
-        <div>
-            <h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Horaires</h3>
-            <ul class="*:py-1">
-                <li>Lundi : Fermé</li>
-                <li>Mardi : 10h-18h</li>
-                <li>Mercredi : Fermé</li>
-                <li>Jeudi : 10h-18h</li>
-                <li>Vendredi : 10h-18h</li>
-                <li>Samedi : 10h-18h</li>
-                <li>Dimanche : Fermé</li>
-            </ul>
-        </div>
-    </div>
+				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--				Grille-->
+				<section class="grid grid-cols-2 border-2 border-pink-600 gap-x-10 gap-y-10 px-10 py-10">
+					<!-- ------------------------------------------------------------------- -->
+<!--					Image-->
+<!--					<picture>-->
+<!--						<source srcset="/src/assets/images/pictures/fille.png" type="image/webp" media="(min-width: 1536px)" />-->
+<!--						<img src="/src/assets/images/pictures/fille.png" class="" alt="" aria-hidden="true" />-->
+<!--					</picture>-->
+					<!-- ------------------------------------------------------------------- -->
+					<!--					Article-->
+					<article class="grid grid-cols-2 gap-x-40 rounded-2xl border border-pink-600 px-10 py-10 shadow-md bg-gradient-to-br from-pink-100 from-5% via-white to-95% to-pink-100">
+						<div class="grid grid-cols-[1fr_auto] col-span-2">
+							<h2 class="relative font-petrona font-bold text-4xl text-slate-800 after:absolute after:left-0 after:-bottom-2 after:h-2 after:w-52 after:bg-pink-300 pr-5">Lorem ipsum</h2>
+							<span class="bg-slate-800 text-white tracking-wider font-bold py-2 px-10 self-start">Nouveauté</span>
+						</div>
+						<strong class="font-bold text-pink-800 py-4 text-lg col-span-2">Entre 4 et 8 ans</strong>
+						<p class="text-2xl py-2 col-span-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<p class="text-pink-800 font-bold text-2xl pb-10 col-span-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-    <!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!-- Réseaux sociaux / copyright -->
-    <div class="mx-auto flex w-1/2 justify-center gap-x-24 border-b-4 border-b-pink-200 pb-5 pt-10 *:text-emerald-800 *:duration-500">
-        <a href="https://www.instagram.com/lauranaturelle/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" class="hover:text-emerald-500"
-        ><i class="ri-instagram-line ri-2x" aria-hidden="true"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/sandrine-dassonville-963288285/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin" title="Linkedin" class="hover:text-emerald-500"
-        ><i class="ri-linkedin-box-fill ri-2x" aria-hidden="true"></i
-        ></a>
-        <a href="https://www.facebook.com/lauranaturellebiovegan02" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook" class="hover:text-emerald-500"
-        ><i class="ri-facebook-circle-fill ri-2x" aria-hidden="true"></i
-        ></a>
-    </div>
-    <p class="mt-3 px-4 text-center">© L’Aura Natur’elle 2019 - 2024 - Tous droits réservés</p>
-</footer>
+						<hr class="col-span-2">
 
-<script type="module" src="/src/js/navigation.js"></script>
-</body>
+						<div class="bg-slate-300 font-bold flex place-content-center text-2xl rounded-xl py-2 mt-10"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
+						<div class="bg-pink-300 font-bold text-2xl flex place-content-center rounded-xl py-2 mt-10">10 €</div>
+
+						<div class="bg-slate-300 font-bold flex place-content-center text-2xl rounded-xl py-2 mt-10"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
+						<div class="bg-pink-300 font-bold text-2xl flex place-content-center rounded-xl py-2 mt-10">10 €</div>
+					</article>
+
+
+					<!-- ------------------------------------------------------------------- -->
+					<!--					Article-->
+<!--					<article class="rounded-2xl border border-pink-600 px-10 py-10 shadow-md bg-gradient-to-br from-pink-100 from-5% via-white to-95% to-pink-100">-->
+<!--						<div>-->
+<!--							<h2 class="relative font-petrona font-bold text-4xl text-slate-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-300">Lorem Ipsum</h2>-->
+<!--							<div class="bg-slate-800 text-white tracking-wider font-bold py-2 px-10">Nouveauté</div>-->
+<!--						</div>-->
+<!--						<p class="font-bold text-pink-800">Entre 4 et 8 ans</p>-->
+<!--						<p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
+<!--						<p class="text-pink-800 font-bold text-xl">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>-->
+<!--						<div class="*:font-bold *:rounded-xl *:flex *:justify-center *:py-2">-->
+<!--							<div class="bg-slate-300 flex items-center text-2xl"><i class="ri-time-line ri-2x mr-2 font-medium"></i>30 min</div>-->
+<!--							<div class="bg-pink-300 text-2xl">10 €</div>-->
+<!--						</div>-->
+<!--					</article>-->
+				</section>
+			</div>
+		</main>
+
+		<!-- ============================================================================================================================================= -->
+		<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+		<!-- FOOTER -->
+		<footer class="relative border-t-2 border-t-pink-200 py-10">
+			<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Image-->
+			<picture>
+				<source srcset="/src/assets/images/pictures/footer.webp" type="image/webp" media="(min-width: 768px)" />
+				<img src="/src/assets/images/pictures/main.webp" class="absolute bottom-0 right-0 opacity-15 md:h-full" alt="" aria-hidden="true" />
+			</picture>
+			<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Grille des infos -->
+			<div class="grid justify-items-center gap-y-20 px-5 sm:grid-cols-2 md:grid-cols-3">
+				<!-- ------------------------------------------------------------- -->
+				<!-- Informations -->
+				<div>
+					<h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Informations</h3>
+					<ul class="*:py-2">
+						<li>
+							<a
+								href="#"
+								class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Mentions légales</a
+							>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Politiques de confidentialité</a
+							>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								>Conditions générales de vente</a
+							>
+						</li>
+						<li class="mt-20">
+							Paiements disponibles sur place :
+							<ul class="mt-4 flex justify-around">
+								<li><img src="/src/assets/images/logos/credit-card.svg" class="w-8" alt="Carte de crédit" title="Carte de crédit" /></li>
+								<li><img src="/src/assets/images/logos/visa.svg" class="w-8" alt="Carte visa" title="Carte visa" /></li>
+								<li><img src="/src/assets/images/logos/mastercard.svg" class="w-8" alt="Mastercard" title="Mastercard" /></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- ------------------------------------------------------------- -->
+				<!-- Contact -->
+				<div>
+					<h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Contact</h3>
+					<ul class="*:py-2">
+						<li>
+							<i class="ri-map-pin-line mr-3"></i>10 chemin de la Tombelle <br />
+							02100 Saint Quentin
+						</li>
+						<li>
+							<a
+								href="mailto:esthetique@gmail.com"
+								class="relative transition duration-500 after:absolute after:left-0 after:top-6 after:h-px after:w-full after:scale-x-0 after:bg-pink-500 after:transition-transform after:duration-500 hover:text-pink-500 hover:after:scale-x-100"
+								><i class="ri-mail-line mr-3" aria-hidden="true"></i>esthetique@gmail.com</a
+							>
+						</li>
+						<li><i class="ri-phone-fill mr-3" aria-hidden="true"></i>07 67 47 68 37</li>
+					</ul>
+				</div>
+				<!-- ------------------------------------------------------------- -->
+				<!-- Horaires -->
+				<div>
+					<h3 class="relative mb-6 font-petrona text-2xl font-bold text-emerald-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-200">Horaires</h3>
+					<ul class="*:py-1">
+						<li>Lundi : Fermé</li>
+						<li>Mardi : 10h-18h</li>
+						<li>Mercredi : Fermé</li>
+						<li>Jeudi : 10h-18h</li>
+						<li>Vendredi : 10h-18h</li>
+						<li>Samedi : 10h-18h</li>
+						<li>Dimanche : Fermé</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
+			<!-- Réseaux sociaux / copyright -->
+			<div class="mx-auto flex w-1/2 justify-center gap-x-24 border-b-4 border-b-pink-200 pb-5 pt-10 *:text-emerald-800 *:duration-500">
+				<a href="https://www.instagram.com/lauranaturelle/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" class="hover:text-emerald-500"
+					><i class="ri-instagram-line ri-2x" aria-hidden="true"></i
+				></a>
+				<a href="https://www.linkedin.com/in/sandrine-dassonville-963288285/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin" title="Linkedin" class="hover:text-emerald-500"
+					><i class="ri-linkedin-box-fill ri-2x" aria-hidden="true"></i
+				></a>
+				<a href="https://www.facebook.com/lauranaturellebiovegan02" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook" class="hover:text-emerald-500"
+					><i class="ri-facebook-circle-fill ri-2x" aria-hidden="true"></i
+				></a>
+			</div>
+			<p class="mt-3 px-4 text-center">© L’Aura Natur’elle 2019 - 2024 - Tous droits réservés</p>
+		</footer>
+
+		<script type="module" src="/src/js/navigation.js"></script>
+	</body>
 </html>

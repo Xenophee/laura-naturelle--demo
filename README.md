@@ -21,7 +21,7 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <br>
 
 > [!NOTE]
-> - Finalisation du footer
+> - Finalisation de la page pour les enfants
 
 <br>
 

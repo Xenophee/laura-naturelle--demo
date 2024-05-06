@@ -8,6 +8,7 @@ export default {
                 main: resolve(__dirname, 'index.html'),
                 pages: resolve(__dirname, 'pages/page.html'),
                 female: resolve(__dirname, 'pages/female.html'),
+                male: resolve(__dirname, 'pages/male.html'),
                 children: resolve(__dirname, 'pages/children.html')
             }
         }

@@ -223,7 +223,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 					ullamco laboris nisi ut aliquip ex ea commodo consequat.
 				</p>
-				<strong class="text-center text-xl text-pink-700 font-bold px-5 pt-10 xl:pt-0 z-30">Pendant toute la durée du soin pour les mineurs, la présence d’un parent est obligatoire !</strong>
+				<strong class="z-30 px-5 pt-10 text-center text-xl font-bold text-pink-700 xl:pt-0">Pendant toute la durée du soin pour les mineurs, la présence d’un parent est obligatoire !</strong>
 
 				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 				<!-- Image -->
@@ -246,57 +246,56 @@
 		<main class="flex min-h-screen pb-24 pt-24 lg:pb-44 lg:pt-44 xl:pb-44 xl:pt-24">
 			<div class="container mx-auto">
 				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!--				Onglet-->
-				<div class="flex justify-between *:text-white *:text-center *:py-5 *:px-24 *:text-3xl *:font-petrona *:rounded-t-xl">
+				<!--				Onglet-->
+				<div class="flex justify-between *:rounded-t-xl *:px-24 *:py-5 *:text-center *:font-petrona *:text-3xl *:text-white">
 					<button class="bg-pink-600">Les petites fées</button>
 					<button class="bg-emerald-800">Les petits princes</button>
 				</div>
 
 				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
-<!--				Grille-->
-				<section class="grid grid-cols-2 border-2 border-pink-600 gap-x-10 gap-y-10 px-10 py-10">
+				<!--				Grille-->
+				<section class="grid grid-cols-2 gap-x-10 gap-y-10 border-2 border-pink-600 px-10 py-10">
 					<!-- ------------------------------------------------------------------- -->
-<!--					Image-->
-<!--					<picture>-->
-<!--						<source srcset="/src/assets/images/pictures/fille.png" type="image/webp" media="(min-width: 1536px)" />-->
-<!--						<img src="/src/assets/images/pictures/fille.png" class="" alt="" aria-hidden="true" />-->
-<!--					</picture>-->
+					<!--					Image-->
+					<!--					<picture>-->
+					<!--						<source srcset="/src/assets/images/pictures/fille.png" type="image/webp" media="(min-width: 1536px)" />-->
+					<!--						<img src="/src/assets/images/pictures/fille.png" class="" alt="" aria-hidden="true" />-->
+					<!--					</picture>-->
 					<!-- ------------------------------------------------------------------- -->
 					<!--					Article-->
-					<article class="grid grid-cols-2 gap-x-40 rounded-2xl border border-pink-600 px-10 py-10 shadow-md bg-gradient-to-br from-pink-100 from-5% via-white to-95% to-pink-100">
-						<div class="grid grid-cols-[1fr_auto] col-span-2">
-							<h2 class="relative font-petrona font-bold text-4xl text-slate-800 after:absolute after:left-0 after:-bottom-2 after:h-2 after:w-52 after:bg-pink-300 pr-5">Lorem ipsum</h2>
-							<span class="bg-slate-800 text-white tracking-wider font-bold py-2 px-10 self-start">Nouveauté</span>
+					<article class="grid grid-cols-2 gap-x-40 rounded-2xl border border-pink-600 bg-gradient-to-br from-pink-100 from-5% via-white to-pink-100 to-95% px-10 py-10 shadow-md">
+						<div class="col-span-2 grid grid-cols-[1fr_auto]">
+							<h2 class="relative pr-5 font-petrona text-4xl font-bold text-slate-800 after:absolute after:-bottom-2 after:left-0 after:h-2 after:w-52 after:bg-pink-300">Lorem ipsum</h2>
+							<span class="self-start bg-slate-800 px-10 py-2 font-bold tracking-wider text-white">Nouveauté</span>
 						</div>
-						<strong class="font-bold text-pink-800 py-4 text-lg col-span-2">Entre 4 et 8 ans</strong>
-						<p class="text-2xl py-2 col-span-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-						<p class="text-pink-800 font-bold text-2xl pb-10 col-span-2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+						<strong class="col-span-2 py-4 text-lg font-bold text-pink-800">Entre 4 et 8 ans</strong>
+						<p class="col-span-2 py-2 text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="col-span-2 pb-10 text-2xl font-bold text-pink-800">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-						<hr class="col-span-2">
+						<hr class="col-span-2" />
 
-						<div class="bg-slate-300 font-bold flex place-content-center text-2xl rounded-xl py-2 mt-10"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
-						<div class="bg-pink-300 font-bold text-2xl flex place-content-center rounded-xl py-2 mt-10">10 €</div>
+						<div class="mt-10 flex place-content-center rounded-xl bg-slate-300 py-2 text-2xl font-bold"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
+						<div class="mt-10 flex place-content-center rounded-xl bg-pink-300 py-2 text-2xl font-bold">10 €</div>
 
-						<div class="bg-slate-300 font-bold flex place-content-center text-2xl rounded-xl py-2 mt-10"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
-						<div class="bg-pink-300 font-bold text-2xl flex place-content-center rounded-xl py-2 mt-10">10 €</div>
+						<div class="mt-10 flex place-content-center rounded-xl bg-slate-300 py-2 text-2xl font-bold"><i class="ri-time-line ri-lg mr-2 font-medium"></i>30 min</div>
+						<div class="mt-10 flex place-content-center rounded-xl bg-pink-300 py-2 text-2xl font-bold">10 €</div>
 					</article>
 
-
 					<!-- ------------------------------------------------------------------- -->
 					<!--					Article-->
-<!--					<article class="rounded-2xl border border-pink-600 px-10 py-10 shadow-md bg-gradient-to-br from-pink-100 from-5% via-white to-95% to-pink-100">-->
-<!--						<div>-->
-<!--							<h2 class="relative font-petrona font-bold text-4xl text-slate-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-300">Lorem Ipsum</h2>-->
-<!--							<div class="bg-slate-800 text-white tracking-wider font-bold py-2 px-10">Nouveauté</div>-->
-<!--						</div>-->
-<!--						<p class="font-bold text-pink-800">Entre 4 et 8 ans</p>-->
-<!--						<p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
-<!--						<p class="text-pink-800 font-bold text-xl">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>-->
-<!--						<div class="*:font-bold *:rounded-xl *:flex *:justify-center *:py-2">-->
-<!--							<div class="bg-slate-300 flex items-center text-2xl"><i class="ri-time-line ri-2x mr-2 font-medium"></i>30 min</div>-->
-<!--							<div class="bg-pink-300 text-2xl">10 €</div>-->
-<!--						</div>-->
-<!--					</article>-->
+					<!--					<article class="rounded-2xl border border-pink-600 px-10 py-10 shadow-md bg-gradient-to-br from-pink-100 from-5% via-white to-95% to-pink-100">-->
+					<!--						<div>-->
+					<!--							<h2 class="relative font-petrona font-bold text-4xl text-slate-800 after:absolute after:left-0 after:top-8 after:h-2 after:w-16 after:bg-pink-300">Lorem Ipsum</h2>-->
+					<!--							<div class="bg-slate-800 text-white tracking-wider font-bold py-2 px-10">Nouveauté</div>-->
+					<!--						</div>-->
+					<!--						<p class="font-bold text-pink-800">Entre 4 et 8 ans</p>-->
+					<!--						<p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>-->
+					<!--						<p class="text-pink-800 font-bold text-xl">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>-->
+					<!--						<div class="*:font-bold *:rounded-xl *:flex *:justify-center *:py-2">-->
+					<!--							<div class="bg-slate-300 flex items-center text-2xl"><i class="ri-time-line ri-2x mr-2 font-medium"></i>30 min</div>-->
+					<!--							<div class="bg-pink-300 text-2xl">10 €</div>-->
+					<!--						</div>-->
+					<!--					</article>-->
 				</section>
 			</div>
 		</main>

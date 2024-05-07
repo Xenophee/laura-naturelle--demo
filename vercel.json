@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/pages/page",
+      "source": "dist/pages/page",
       "destination": "/en-construction"
     }
   ]

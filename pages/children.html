@@ -247,20 +247,29 @@
 			<div class="container mx-auto">
 				<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 				<!-- Onglet -->
-				<div class="flex flex-col justify-between *:rounded-t-xl *:px-24 *:py-5 *:text-center *:font-petrona *:text-3xl *:text-white md:flex-row">
-					<button class="children-service-btn bg-pink-600">Les petites fées</button>
-					<button class="children-service-btn bg-emerald-800">Les petits princes</button>
+				<div
+					id="childrenServiceBtnsContainer"
+					class="flex justify-evenly rounded-t-full border-t-2 border-pink-200 bg-gradient-to-t from-pink-100 to-white py-3 text-xl *:rounded-b-full *:rounded-t-full *:border-2 *:px-2 *:py-2 *:text-center *:font-petrona *:text-white *:shadow-xl md:flex-row md:justify-between md:border-none md:bg-none md:py-0 md:text-2xl md:*:rounded-b-none md:*:rounded-t-xl md:*:border-none md:*:px-24 md:*:py-5 md:*:shadow-none lg:*:text-3xl"
+				>
+					<button class="children-service-btn border-pink-400 bg-pink-600">
+						<img src="/src/assets/images/logos/children.png" class="w-20 md:hidden" alt="" aria-hidden="true" />
+						<span class="hidden md:block">Les petites fées</span>
+					</button>
+					<button class="children-service-btn border-emerald-600 bg-emerald-800 opacity-60">
+						<img src="/src/assets/images/logos/children-2.png" class="w-20 md:hidden" alt="" aria-hidden="true" />
+						<span class="hidden md:block">Les petits princes</span>
+					</button>
 				</div>
 
 				<div id="childrenServicesContainer" class="border-2 border-pink-600">
 					<!-- --------------------------------------------------------------------------------------------------------------------------------------------- -->
 					<!-- Grille fille -->
-					<section class="children-service grid gap-x-10 gap-y-10 px-2 py-2 md:px-10 md:py-10 lg:grid-cols-2">
+					<section class="children-service grid grid-flow-dense gap-x-10 gap-y-10 px-2 py-2 md:px-10 md:py-10 lg:grid-cols-2">
 						<!-- ------------------------------------------------------------------- -->
 						<!-- Image -->
-						<picture class="place-content-center">
+						<picture class="place-content-center lg:col-start-1">
 							<source srcset="/src/assets/images/pictures/fille-xl.webp" type="image/webp" media="(min-width: 1024px)" />
-							<img src="/src/assets/images/pictures/fille.webp" class="mx-auto mt-5 lg:mt-0" alt="Fille dans une fleur" aria-hidden="true" />
+							<img src="/src/assets/images/pictures/fille.webp" class="mx-auto mt-5 lg:mt-0" alt="Fille dans une fleur" />
 						</picture>
 						<!-- ------------------------------------------------------------------- -->
 						<!-- Articles -->
@@ -347,7 +356,7 @@
 						<!-- Image -->
 						<picture class="place-content-center lg:col-start-2">
 							<source srcset="/src/assets/images/pictures/garçon-xl.webp" type="image/webp" media="(min-width: 1024px)" />
-							<img src="/src/assets/images/pictures/garçon.webp" class="mx-auto mt-5" alt="Garçon dans des feuilles" aria-hidden="true" />
+							<img src="/src/assets/images/pictures/garçon.webp" class="mx-auto mt-5 lg:mt-0" alt="Garçon dans des feuilles" />
 						</picture>
 						<!-- ------------------------------------------------------------------- -->
 						<!-- Articles -->

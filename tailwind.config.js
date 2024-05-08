@@ -28,6 +28,14 @@ module.exports = {
                   'pink-900': '#69324d',
                   'pink-950': '#3e192b',
               },
+              keyframes: {
+                  'shadow-pulse-pink' : {
+                      '50%': { boxShadow : '0px 0px 20px #af5384' },
+                  },
+                  'shadow-pulse-emerald' : {
+                      '50%': { boxShadow : '0px 0px 20px #065f46' },
+                  }
+              }
           },
     },
     plugins: [

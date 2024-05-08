@@ -15,7 +15,8 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <br>
 <br>
 
-> [!NOTE] Interfaces opérationnelles
+> [!NOTE]
+Interfaces opérationnelles
 > - Page prestation femmes
 > - Page prestations hommes
 > - Page prestations enfants

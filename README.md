@@ -2,7 +2,7 @@
 
 
 
-<img src="/preview.png">
+<img src="/preview.png" alt="Capture d'écran du haut de la page d'accueil">
 
 <p align="center"> :leaves: <a href="https://laura-naturelle-demo.vercel.app">Voir la démo</a> :leaves: </p>
 
@@ -15,20 +15,27 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <br>
 <br>
 
+> [!NOTE] Interfaces opérationnelles
+> - Page prestation femmes
+> - Page prestations hommes
+> - Page prestations enfants
+
+<br>
+<br>
 
 <h2 align="center">Prochaine mise à jour :</h2>
 <br>
 <br>
 
-> [!NOTE]
-> - Finalisation de la page pour les enfants
+> [!IMPORTANT]
+> - Finalisation de la page Cartes cadeaux
 
 <br>
 
 <h2 align="center">La stack technique :</h2>
 <br>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=tailwind,react,symfony,mysql">
+  <img src="https://skillicons.dev/icons?i=tailwind,react,symfony,mysql" alt="Icones de la stack technique" title="Tailwind CSS, React, Symfony et MySQL">
 </p>
 
 
@@ -37,15 +44,15 @@ Pour cette restructuration, le design a été totalement revu et maquetté sur F
 <h2 align="center">Autres outils :</h2>
 <br>
 <p align="center">
-<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
+<img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="NPM">
 
-<img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E">
+<img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite">
 
-<img src="https://img.shields.io/badge/postcss-000000?style=for-the-badge&logo=postcss&logoColor=DD3A0A">
+<img src="https://img.shields.io/badge/postcss-000000?style=for-the-badge&logo=postcss&logoColor=DD3A0A" alt="PostCSS">
 
-<img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E">
+<img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E" alt="Prettier">
 
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
 </p>
 <br>
 <hr>

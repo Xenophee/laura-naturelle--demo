@@ -1,7 +1,31 @@
 {
   "rewrites": [
     {
-      "source": "dist/pages/page",
+      "source": "/pages/female",
+      "destination": "/prestations-femmes"
+    },
+    {
+      "source": "/pages/male",
+      "destination": "/prestations-hommes"
+    },
+    {
+      "source": "/pages/children",
+      "destination": "/prestations-enfants"
+    },
+    {
+      "source": "/pages/gift_card",
+      "destination": "/cartes-cadeaux"
+    },
+    {
+      "source": "/pages/products",
+      "destination": "/produits"
+    },
+    {
+      "source": "/pages/contact",
+      "destination": "/contact"
+    },
+    {
+      "source": "/pages/page",
       "destination": "/en-construction"
     }
   ]

@@ -1,32 +1,32 @@
 {
   "rewrites": [
     {
-      "source": "/pages/female",
-      "destination": "/prestations-femmes"
+      "source": "/prestations-femmes",
+      "destination": "/pages/female.html"
     },
     {
-      "source": "/pages/male",
-      "destination": "/prestations-hommes"
+      "source": "/prestations-hommes",
+      "destination": "/pages/male.html"
     },
     {
-      "source": "/pages/children",
-      "destination": "/prestations-enfants"
+      "source": "/prestations-enfants",
+      "destination": "/pages/children.html"
     },
     {
-      "source": "/pages/gift_card",
-      "destination": "/cartes-cadeaux"
+      "source": "/cartes-cadeaux",
+      "destination": "/pages/gift_card.html"
     },
     {
-      "source": "/pages/products",
-      "destination": "/produits"
+      "source": "/produits",
+      "destination": "/pages/products.html"
     },
     {
-      "source": "/pages/contact",
-      "destination": "/contact"
+      "source": "/contact",
+      "destination": "/pages/contact.html"
     },
     {
-      "source": "/pages/page",
-      "destination": "/en-construction"
+      "source": "/en-construction",
+      "destination": "/pages/page.html"
     }
   ]
 }

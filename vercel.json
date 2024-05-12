@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/accueil",
+      "source": "/",
       "destination": "/index.html"
     },
     {
@@ -11,6 +11,10 @@
     {
       "source": "/prestations-hommes",
       "destination": "/pages/male.html"
+    },
+    {
+      "source": "/prestation",
+      "destination": "/pages/service.html"
     },
     {
       "source": "/prestations-enfants",

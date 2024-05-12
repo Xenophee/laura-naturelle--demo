@@ -7,7 +7,7 @@
     "scripts": {
         "format": "prettier --write index.html ./src/**/*.js ./pages/*.html",
         "dev": "vite",
-        "build": "vite build && copyfiles vercel.json dist",
+        "build": "vite build",
         "preview": "vite preview"
     },
     "keywords": [],
